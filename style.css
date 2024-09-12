@@ -45,15 +45,15 @@ header nav ul li a {
   position: relative;
 }
 
-.parallax-home {
+.parallax-1 {
   background-image: url('American\ Flag.jpg');
 }
 
-.parallax-democrats {
+.parallax-2 {
   background-image: url('Whitehouse\ Image.jpg');
 }
 
-.parallax-republicans {
+.parallax-3 {
   background-image: url('washington\ Skyline.jpg');
 }
 
@@ -74,6 +74,7 @@ header nav ul li a {
   padding: 50px;
   text-align: center;
   background-color: white;
+  color: black;
 }
 
 /* Footer styles */
@@ -84,4 +85,3 @@ footer {
   padding: 10px 0;
   position: relative;
 }
-
