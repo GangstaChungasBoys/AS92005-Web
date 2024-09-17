@@ -54,7 +54,7 @@ header nav ul li a {
 }
 
 .parallax-3 {
-  background-image: url('washington\ Skyline.jpg');
+  background-image: url('Statue\ of\ liberty.jpg');
 }
 
 /* Overlay for parallax text */
@@ -75,6 +75,15 @@ header nav ul li a {
   text-align: center;
   background-color: white;
   color: black;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 /* Footer styles */
