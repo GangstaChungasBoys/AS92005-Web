@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: black;
+  background-color: #333;
   color: black;
 }
 
@@ -73,8 +73,10 @@ header nav ul li a {
 .content {
   padding: 50px;
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: #333;
+  color: white;
+  max-width: 1400px;
+  margin: 0px auto;
 }
 
 .content h2 {
