@@ -48,13 +48,19 @@ header nav ul li a {
 .parallax-1 {
   background-image: url('American\ Flag.jpg');
 }
-
 .parallax-2 {
   background-image: url('Whitehouse\ Image.jpg');
 }
-
 .parallax-3 {
   background-image: url('Statue\ of\ liberty.jpg');
+}
+
+.parallax-democrats {
+  background-image: url('pexels-aaron-hatton-58936-213407.jpg');
+}
+
+.parallax-republicans {
+  background-image: url('pexels-thomas-shockey-14125561-8619113.jpg');
 }
 
 /* Overlay for parallax text */
@@ -87,6 +93,43 @@ header nav ul li a {
   margin-bottom: 20px;
   line-height: 1.6;
 }
+
+/* Leader and emblem image styles */
+.leader-image {
+  width: 300px;
+  margin: 20px;
+  float: left;
+  border-radius: 10px;
+}
+
+.emblem-image {
+  width: 300px;
+  margin: 20px;
+  float: right;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 50px;
+  text-align: center; /* Adjust text alignment */
+  background-color: #333;
+  color: white;
+  max-width: 1400px;
+  margin: 0px auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.p2{
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 20px;
+ 
+}
+
 
 /* Footer styles */
 footer {
